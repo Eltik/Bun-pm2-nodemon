@@ -1,0 +1,21 @@
+{
+  "name": "testing",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun index.ts",
+    "pm2": "bun pm2.ts",
+    "nodemon": "bun nodemon.ts"
+  },
+  "devDependencies": {
+    "@types/nodemon": "^1.19.2",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "nodemon": "^3.0.1",
+    "pm2": "^5.3.0"
+  }
+}
